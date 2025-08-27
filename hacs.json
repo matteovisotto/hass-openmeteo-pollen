@@ -1,0 +1,8 @@
+
+{
+  "name": "Open Meteo Pollen",
+  "render_readme": true,
+  "homeassistant": "2023.6.0",
+  "domains": ["sensor"],
+  "iot_class": "cloud_polling"
+}

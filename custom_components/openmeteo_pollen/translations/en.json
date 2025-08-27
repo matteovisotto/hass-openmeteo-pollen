@@ -1,0 +1,240 @@
+{
+  "entity": {
+    "sensor": {
+      "alder_pollen": {
+        "name": "Alder",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Forecast trend",
+            "state": {
+              "trend_increasing": "Increasing",
+              "trend_decreasing": "Decreasing",
+              "trend_stable": "Stable"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Peak pollen level",
+            "state": {
+              "level_none": "None",
+              "level_low": "Low",
+              "level_moderate": "Moderate",
+              "level_high": "High",
+              "level_very_high": "Very High"
+            }
+          },
+          "forecast_peak": {
+              "name": "Forecast peak"
+          },
+           "forecast_avg": {
+              "name": "Forecast average"
+          },
+          "current_risk": {
+              "name": "Current risk",
+              "state": {
+                  "level_none": "None",
+                  "level_low": "Low",
+                  "level_moderate": "Moderate",
+                  "level_high": "High",
+                  "level_very_high": "Very high"
+            }
+          }
+        }
+      },
+      "birch_pollen": {
+        "name": "Birch",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Forecast trend",
+            "state": {
+              "trend_increasing": "Increasing",
+              "trend_decreasing": "Decreasing",
+              "trend_stable": "Stable"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Peak pollen level",
+            "state": {
+              "level_none": "None",
+              "level_low": "Low",
+              "level_moderate": "Moderate",
+              "level_high": "High",
+              "level_very_high": "Very High"
+            }
+          },
+          "forecast_peak": {
+              "name": "Forecast peak"
+          },
+           "forecast_avg": {
+              "name": "Forecast average"
+          },
+          "current_risk": {
+              "name": "Current risk",
+              "state": {
+                  "level_none": "None",
+                  "level_low": "Low",
+                  "level_moderate": "Moderate",
+                  "level_high": "High",
+                  "level_very_high": "Very high"
+            }
+          }
+        }
+      },
+      "grass_pollen": {
+        "name": "Grass",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Forecast trend",
+            "state": {
+              "trend_increasing": "Increasing",
+              "trend_decreasing": "Decreasing",
+              "trend_stable": "Stable"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Peak pollen level",
+            "state": {
+              "level_none": "None",
+              "level_low": "Low",
+              "level_moderate": "Moderate",
+              "level_high": "High",
+              "level_very_high": "Very High"
+            }
+          },
+          "forecast_peak": {
+              "name": "Forecast peak"
+          },
+           "forecast_avg": {
+              "name": "Forecast average"
+          },
+          "current_risk": {
+              "name": "Current risk",
+              "state": {
+                  "level_none": "None",
+                  "level_low": "Low",
+                  "level_moderate": "Moderate",
+                  "level_high": "High",
+                  "level_very_high": "Very high"
+            }
+          }
+        }
+      },
+      "mugwort_pollen": {
+        "name": "Mugwort",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Forecast trend",
+            "state": {
+              "trend_increasing": "Increasing",
+              "trend_decreasing": "Decreasing",
+              "trend_stable": "Stable"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Peak pollen level",
+            "state": {
+              "level_none": "None",
+              "level_low": "Low",
+              "level_moderate": "Moderate",
+              "level_high": "High",
+              "level_very_high": "Very High"
+            }
+          },
+          "forecast_peak": {
+              "name": "Forecast peak"
+          },
+           "forecast_avg": {
+              "name": "Forecast average"
+          },
+          "current_risk": {
+              "name": "Current risk",
+              "state": {
+                  "level_none": "None",
+                  "level_low": "Low",
+                  "level_moderate": "Moderate",
+                  "level_high": "High",
+                  "level_very_high": "Very high"
+            }
+          }
+        }
+      },
+      "olive_pollen": {
+        "name": "Olive",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Forecast trend",
+            "state": {
+              "trend_increasing": "Increasing",
+              "trend_decreasing": "Decreasing",
+              "trend_stable": "Stable"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Peak pollen level",
+            "state": {
+              "level_none": "None",
+              "level_low": "Low",
+              "level_moderate": "Moderate",
+              "level_high": "High",
+              "level_very_high": "Very High"
+            }
+          },
+          "forecast_peak": {
+              "name": "Forecast peak"
+          },
+           "forecast_avg": {
+              "name": "Forecast average"
+          },
+          "current_risk": {
+              "name": "Current risk",
+              "state": {
+                  "level_none": "None",
+                  "level_low": "Low",
+                  "level_moderate": "Moderate",
+                  "level_high": "High",
+                  "level_very_high": "Very high"
+            }
+          }
+        }
+      },
+      "ragweed_pollen": {
+        "name": "Ragweed",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Forecast trend",
+            "state": {
+              "trend_increasing": "Increasing",
+              "trend_decreasing": "Decreasing",
+              "trend_stable": "Stable"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Peak pollen level",
+            "state": {
+              "level_none": "None",
+              "level_low": "Low",
+              "level_moderate": "Moderate",
+              "level_high": "High",
+              "level_very_high": "Very High"
+            }
+          },
+          "forecast_peak": {
+              "name": "Forecast peak"
+          },
+           "forecast_avg": {
+              "name": "Forecast average"
+          },
+          "current_risk": {
+              "name": "Current risk",
+              "state": {
+                  "level_none": "None",
+                  "level_low": "Low",
+                  "level_moderate": "Moderate",
+                  "level_high": "High",
+                  "level_very_high": "Very high"
+            }
+          }
+        }
+      }
+    }
+  }
+}

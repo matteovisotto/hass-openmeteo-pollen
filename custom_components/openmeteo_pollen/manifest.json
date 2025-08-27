@@ -1,0 +1,15 @@
+{
+  "domain": "openmeteo_pollen",
+  "name": "Open Meteo Pollen",
+  "version": "1.0.0",
+  "documentation": "https://github.com/matteovisotto/hass-openmeteo-pollen",
+  "issue_tracker": "https://github.com/matteovisotto/hass-openmeteo-pollen/issues",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [
+    "@matteovisotto"
+  ],
+  "iot_class": "cloud_polling",
+  "config_flow": true,
+  "translation": true
+}

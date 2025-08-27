@@ -1,0 +1,1 @@
+DOMAIN = "openmeteo_pollen"

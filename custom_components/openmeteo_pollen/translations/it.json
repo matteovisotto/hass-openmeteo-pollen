@@ -1,0 +1,240 @@
+{
+  "entity": {
+    "sensor": {
+      "alder_pollen": {
+        "name": "Ontano",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Andamento previsto",
+            "state": {
+              "trend_increasing": "In aumento",
+              "trend_decreasing": "In diminuzione",
+              "trend_stable": "Stabile"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Livello massimo previsto",
+            "state": {
+              "level_none": "Nessuno",
+              "level_low": "Basso",
+              "level_moderate": "Moderato",
+              "level_high": "Alto",
+              "level_very_high": "Molto alto"
+            }
+          },
+          "forecast_peak": {
+              "name": "Picco previsto"
+          },
+           "forecast_avg": {
+              "name": "Media prevista"
+          },
+          "current_risk": {
+              "name": "Rischio corrente",
+              "state": {
+                  "level_none": "Nessuno",
+                  "level_low": "Basso",
+                  "level_moderate": "Moderato",
+                  "level_high": "Alto",
+                  "level_very_high": "Molto alto"
+            }
+          }
+        }
+      },
+      "birch_pollen": {
+        "name": "Betulla",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Andamento previsto",
+            "state": {
+              "trend_increasing": "In aumento",
+              "trend_decreasing": "In diminuzione",
+              "trend_stable": "Stabile"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Livello massimo previsto",
+            "state": {
+              "level_none": "Nessuno",
+              "level_low": "Basso",
+              "level_moderate": "Moderato",
+              "level_high": "Alto",
+              "level_very_high": "Molto alto"
+            }
+          },
+          "forecast_peak": {
+              "name": "Picco previsto"
+          },
+           "forecast_avg": {
+              "name": "Media prevista"
+          },
+          "current_risk": {
+              "name": "Rischio corrente",
+              "state": {
+                  "level_none": "Nessuno",
+                  "level_low": "Basso",
+                  "level_moderate": "Moderato",
+                  "level_high": "Alto",
+                  "level_very_high": "Molto alto"
+            }
+          }
+        }
+      },
+      "grass_pollen": {
+        "name": "Graminacee",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Andamento previsto",
+            "state": {
+              "trend_increasing": "In aumento",
+              "trend_decreasing": "In diminuzione",
+              "trend_stable": "Stabile"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Livello massimo previsto",
+            "state": {
+              "level_none": "Nessuno",
+              "level_low": "Basso",
+              "level_moderate": "Moderato",
+              "level_high": "Alto",
+              "level_very_high": "Molto alto"
+            }
+          },
+          "forecast_peak": {
+              "name": "Picco previsto"
+          },
+           "forecast_avg": {
+              "name": "Media prevista"
+          },
+          "current_risk": {
+              "name": "Rischio corrente",
+              "state": {
+                  "level_none": "Nessuno",
+                  "level_low": "Basso",
+                  "level_moderate": "Moderato",
+                  "level_high": "Alto",
+                  "level_very_high": "Molto alto"
+            }
+          }
+        }
+      },
+      "mugwort_pollen": {
+        "name": "Artemisia",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Andamento previsto",
+            "state": {
+              "trend_increasing": "In aumento",
+              "trend_decreasing": "In diminuzione",
+              "trend_stable": "Stabile"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Livello massimo previsto",
+            "state": {
+              "level_none": "Nessuno",
+              "level_low": "Basso",
+              "level_moderate": "Moderato",
+              "level_high": "Alto",
+              "level_very_high": "Molto alto"
+            }
+          },
+          "forecast_peak": {
+              "name": "Picco previsto"
+          },
+           "forecast_avg": {
+              "name": "Media prevista"
+          },
+          "current_risk": {
+              "name": "Rischio corrente",
+              "state": {
+                  "level_none": "Nessuno",
+                  "level_low": "Basso",
+                  "level_moderate": "Moderato",
+                  "level_high": "Alto",
+                  "level_very_high": "Molto alto"
+            }
+          }
+        }
+      },
+      "olive_pollen": {
+        "name": "Olivo",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Andamento previsto",
+            "state": {
+              "trend_increasing": "In aumento",
+              "trend_decreasing": "In diminuzione",
+              "trend_stable": "Stabile"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Livello massimo previsto",
+            "state": {
+              "level_none": "Nessuno",
+              "level_low": "Basso",
+              "level_moderate": "Moderato",
+              "level_high": "Alto",
+              "level_very_high": "Molto alto"
+            }
+          },
+          "forecast_peak": {
+              "name": "Picco previsto"
+          },
+           "forecast_avg": {
+              "name": "Media prevista"
+          },
+          "current_risk": {
+              "name": "Rischio corrente",
+              "state": {
+                  "level_none": "Nessuno",
+                  "level_low": "Basso",
+                  "level_moderate": "Moderato",
+                  "level_high": "Alto",
+                  "level_very_high": "Molto alto"
+            }
+          }
+        }
+      },
+      "ragweed_pollen": {
+        "name": "Ambrosia",
+        "state_attributes": {
+          "forecast_trend": {
+            "name": "Andamento previsto",
+            "state": {
+              "trend_increasing": "In aumento",
+              "trend_decreasing": "In diminuzione",
+              "trend_stable": "Stabile"
+            }
+          },
+          "forecast_peak_level": {
+            "name": "Livello massimo previsto",
+            "state": {
+              "level_none": "Nessuno",
+              "level_low": "Basso",
+              "level_moderate": "Moderato",
+              "level_high": "Alto",
+              "level_very_high": "Molto alto"
+            }
+          },
+          "forecast_peak": {
+              "name": "Picco previsto"
+          },
+           "forecast_avg": {
+              "name": "Media prevista"
+          },
+          "current_risk": {
+              "name": "Rischio corrente",
+              "state": {
+                  "level_none": "Nessuno",
+                  "level_low": "Basso",
+                  "level_moderate": "Moderato",
+                  "level_high": "Alto",
+                  "level_very_high": "Molto alto"
+            }
+          }
+        }
+      }
+    }
+  }
+}
