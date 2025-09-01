@@ -25,6 +25,3 @@ Once installed, add via **UI**:
 - Enter your **latitude** and **longitude**.
 - Set **update interval** (minutes).
 
-## Example
-Example of sensors created:
-
