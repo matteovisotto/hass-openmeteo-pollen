@@ -63,6 +63,14 @@ POLLEN_THRESHOLDS = {
     ],
 }
 
+LEVEL_RAW_NUM = {
+    "level_none": 0,
+    "level_low": 1,
+    "level_moderate": 2,
+    "level_ high": 3,
+    "level_very_high": 4
+}
+
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_entities):
     coordinator = PollenDataUpdateCoordinator(hass, entry)
@@ -83,6 +91,9 @@ def get_level(key, value):
         if value <= threshold:
             return label_key
     return "level_very_high"
+
+def get_level_raw_num(key):
+    return LEVEL_RAW_NUM[key]
 
 def get_trend(values):
     if len(values) < 2:
@@ -155,7 +166,8 @@ class BasePollenSensor(CoordinatorEntity, SensorEntity):
             "updated_at": datetime.fromisoformat(
                 self.coordinator.data.get("current", {}).get("time")
             ),
-            "current_risk": get_level( self.raw_name, self.coordinator.data.get("current", {}).get(self.raw_name))
+            "current_risk": get_level( self.raw_name, self.coordinator.data.get("current", {}).get(self.raw_name)),
+            "current_risk_raw": get_level_raw_num(get_level( self.raw_name, self.coordinator.data.get("current", {}).get(self.raw_name))), 
         }
 
         hourly = self.coordinator.data.get("hourly", {})
@@ -180,6 +192,7 @@ class BasePollenSensor(CoordinatorEntity, SensorEntity):
                     "datetime": ts.isoformat(),
                     "value": v,
                     "level": level_key,  # return translation key
+                    "level_raw": get_level_raw_num(level_key),
                 })
                 future_values.append(v)
 
@@ -192,6 +205,7 @@ class BasePollenSensor(CoordinatorEntity, SensorEntity):
                 "forecast": forecast,
                 "forecast_peak": peak,
                 "forecast_peak_level": get_level( self.raw_name, peak),
+                "forecast_peak_level_raw": get_level_raw_num(get_level( self.raw_name, peak)),
                 "forecast_avg": round(avg, 2),
                 "forecast_trend": trend_key,
             })

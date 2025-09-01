@@ -22,6 +22,9 @@
               "level_very_high": "Very High"
             }
           },
+          "forecast_peak_level_raw": {
+            "name": "Peak pollen level"
+          },
           "forecast_peak": {
               "name": "Forecast peak"
           },
@@ -60,6 +63,9 @@
               "level_high": "High",
               "level_very_high": "Very High"
             }
+          },
+           "forecast_peak_level_raw": {
+            "name": "Peak pollen level"
           },
           "forecast_peak": {
               "name": "Forecast peak"
@@ -100,6 +106,9 @@
               "level_very_high": "Very High"
             }
           },
+           "forecast_peak_level_raw": {
+            "name": "Peak pollen level"
+          },
           "forecast_peak": {
               "name": "Forecast peak"
           },
@@ -138,6 +147,9 @@
               "level_high": "High",
               "level_very_high": "Very High"
             }
+          },
+           "forecast_peak_level_raw": {
+            "name": "Peak pollen level"
           },
           "forecast_peak": {
               "name": "Forecast peak"
@@ -178,6 +190,9 @@
               "level_very_high": "Very High"
             }
           },
+           "forecast_peak_level_raw": {
+            "name": "Peak pollen level"
+          },
           "forecast_peak": {
               "name": "Forecast peak"
           },
@@ -216,6 +231,9 @@
               "level_high": "High",
               "level_very_high": "Very High"
             }
+          },
+           "forecast_peak_level_raw": {
+            "name": "Peak pollen level"
           },
           "forecast_peak": {
               "name": "Forecast peak"

@@ -22,6 +22,9 @@
               "level_very_high": "Molto alto"
             }
           },
+          "forecast_peak_level_raw": {
+            "name": "Livello massimo previsto"
+          },
           "forecast_peak": {
               "name": "Picco previsto"
           },
@@ -60,6 +63,9 @@
               "level_high": "Alto",
               "level_very_high": "Molto alto"
             }
+          },
+          "forecast_peak_level_raw": {
+            "name": "Livello massimo previsto"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -100,6 +106,9 @@
               "level_very_high": "Molto alto"
             }
           },
+          "forecast_peak_level_raw": {
+            "name": "Livello massimo previsto"
+          },
           "forecast_peak": {
               "name": "Picco previsto"
           },
@@ -138,6 +147,9 @@
               "level_high": "Alto",
               "level_very_high": "Molto alto"
             }
+          },
+          "forecast_peak_level_raw": {
+            "name": "Livello massimo previsto"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -178,6 +190,9 @@
               "level_very_high": "Molto alto"
             }
           },
+          "forecast_peak_level_raw": {
+            "name": "Livello massimo previsto"
+          },
           "forecast_peak": {
               "name": "Picco previsto"
           },
@@ -216,6 +231,9 @@
               "level_high": "Alto",
               "level_very_high": "Molto alto"
             }
+          },
+          "forecast_peak_level_raw": {
+            "name": "Livello massimo previsto"
           },
           "forecast_peak": {
               "name": "Picco previsto"
