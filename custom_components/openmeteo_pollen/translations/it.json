@@ -23,7 +23,7 @@
             }
           },
           "forecast_peak_level_raw": {
-            "name": "Livello massimo previsto"
+            "name": "Livello massimo previsto raw"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -40,6 +40,9 @@
                   "level_high": "Alto",
                   "level_very_high": "Molto alto"
             }
+          },
+          "current_risk_raw" : {
+            "name": "Rischio corrente raw"
           }
         }
       },
@@ -65,7 +68,7 @@
             }
           },
           "forecast_peak_level_raw": {
-            "name": "Livello massimo previsto"
+            "name": "Livello massimo previsto raw"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -82,6 +85,9 @@
                   "level_high": "Alto",
                   "level_very_high": "Molto alto"
             }
+          },
+          "current_risk_raw" : {
+            "name": "Rischio corrente raw"
           }
         }
       },
@@ -107,7 +113,7 @@
             }
           },
           "forecast_peak_level_raw": {
-            "name": "Livello massimo previsto"
+            "name": "Livello massimo previsto raw"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -124,6 +130,9 @@
                   "level_high": "Alto",
                   "level_very_high": "Molto alto"
             }
+          },
+          "current_risk_raw" : {
+            "name": "Rischio corrente raw"
           }
         }
       },
@@ -149,7 +158,7 @@
             }
           },
           "forecast_peak_level_raw": {
-            "name": "Livello massimo previsto"
+            "name": "Livello massimo previsto raw"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -166,6 +175,9 @@
                   "level_high": "Alto",
                   "level_very_high": "Molto alto"
             }
+          },
+          "current_risk_raw" : {
+            "name": "Rischio corrente raw"
           }
         }
       },
@@ -191,7 +203,7 @@
             }
           },
           "forecast_peak_level_raw": {
-            "name": "Livello massimo previsto"
+            "name": "Livello massimo previsto raw"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -208,6 +220,9 @@
                   "level_high": "Alto",
                   "level_very_high": "Molto alto"
             }
+          },
+          "current_risk_raw" : {
+            "name": "Rischio corrente raw"
           }
         }
       },
@@ -233,7 +248,7 @@
             }
           },
           "forecast_peak_level_raw": {
-            "name": "Livello massimo previsto"
+            "name": "Livello massimo previsto raw"
           },
           "forecast_peak": {
               "name": "Picco previsto"
@@ -250,6 +265,9 @@
                   "level_high": "Alto",
                   "level_very_high": "Molto alto"
             }
+          },
+          "current_risk_raw" : {
+            "name": "Rischio corrente raw"
           }
         }
       }

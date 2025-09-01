@@ -1,7 +1,7 @@
 {
   "domain": "openmeteo_pollen",
   "name": "Open Meteo Pollen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "documentation": "https://github.com/matteovisotto/hass-openmeteo-pollen",
   "issue_tracker": "https://github.com/matteovisotto/hass-openmeteo-pollen/issues",
   "requirements": [],

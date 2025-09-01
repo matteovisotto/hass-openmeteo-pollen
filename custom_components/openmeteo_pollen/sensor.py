@@ -67,7 +67,7 @@ LEVEL_RAW_NUM = {
     "level_none": 0,
     "level_low": 1,
     "level_moderate": 2,
-    "level_ high": 3,
+    "level_high": 3,
     "level_very_high": 4
 }
 
